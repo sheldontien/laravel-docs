@@ -68,7 +68,7 @@ Blade 的两个主要优点是 _模板继承_ 和 _区块_ 。为方便开始，
 @section('title', 'Page Title')
 
 @section('sidebar')
-    @parent
+    @@parent
 
     <p>这将追加到主布局的侧边栏。</p>
 @endsection
